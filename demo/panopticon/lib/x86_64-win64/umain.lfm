@@ -1,0 +1,157 @@
+object FrmMain: TFrmMain
+  Left = 250
+  Height = 720
+  Top = 150
+  Width = 1280
+  Caption = 'Panopticon Engine - CyberUI Demo'
+  ClientHeight = 720
+  ClientWidth = 1280
+  Color = clBlack
+  Position = poScreenCenter
+  LCLVersion = '4.8.0.0'
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  object PnlLeft: TCyberPanel
+    Left = 0
+    Height = 720
+    Top = 0
+    Width = 250
+    Caption = 'SYS_PANEL'
+    Align = alLeft
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Style = [fsBold]
+    object PowerCore: TCyberPowerCore
+      Left = 30
+      Height = 450
+      Top = 30
+      Width = 80
+      Font.Height = -13
+      Font.Name = 'Courier New'
+      Font.Style = [fsBold]
+    end
+    object Waveform: TCyberWaveform
+      Left = 20
+      Height = 80
+      Top = 500
+      Width = 200
+    end
+    object SysLED: TCyberLED
+      Left = 20
+      Height = 40
+      Top = 610
+      Width = 40
+    end
+    object TimerDisplay: TCyber7Seg
+      Left = 80
+      Height = 50
+      Top = 605
+      Width = 120
+      Text = '06:13'
+    end
+  end
+  object PnlRight: TCyberPanel
+    Left = 930
+    Height = 720
+    Top = 0
+    Width = 350
+    Caption = 'SYS_PANEL'
+    Align = alRight
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Style = [fsBold]
+    object Terminal: TCyberTerminal
+      Left = 0
+      Height = 300
+      Top = 0
+      Width = 350
+      PrefixString = '> '
+      Align = alTop
+      Font.Height = -13
+      Font.Name = 'Courier New'
+      Font.Style = [fsBold]
+    end
+    object DivHazard: TCyberDivider
+      Left = 0
+      Height = 20
+      Top = 300
+      Width = 350
+      Align = alTop
+    end
+    object MemDump: TCyberHexDump
+      Left = 0
+      Height = 200
+      Top = 320
+      Width = 350
+      Align = alTop
+      Font.Height = -12
+      Font.Name = 'Courier New'
+      Font.Style = [fsBold]
+    end
+    object KnobPower: TCyberKnob
+      Left = 30
+      Height = 80
+      Top = 580
+      Width = 80
+      Font.Height = -13
+      Font.Name = 'Courier New'
+      Font.Style = [fsBold]
+      OnChange = KnobPowerChange
+    end
+    object ProgShield: TCyberProgressBar
+      Left = 130
+      Height = 25
+      Top = 605
+      Width = 190
+      Suffix = '%'
+      Font.Height = -13
+      Font.Name = 'Courier New'
+      Font.Style = [fsBold]
+    end
+  end
+  object PnlCenter: TCyberPanel
+    Left = 250
+    Height = 720
+    Top = 0
+    Width = 680
+    Caption = 'SYS_PANEL'
+    Align = alClient
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Style = [fsBold]
+    object GlitchTitle: TCyberGlitchLabel
+      Left = 20
+      Height = 80
+      Top = 20
+      Width = 400
+      Caption = 'SYSTEM_ERROR'
+      Font.Height = -19
+      Font.Name = 'Courier New'
+      Font.Style = [fsBold]
+    end
+    object TacticalRadar: TCyberRadar
+      Left = 450
+      Height = 160
+      Top = 20
+      Width = 160
+      SweepSpeed = 3
+    end
+    object HexMap: TCyberHexGrid
+      Left = 20
+      Height = 450
+      Top = 200
+      Width = 600
+      ColCount = 7
+      RowCount = 6
+      Font.Height = -12
+      Font.Name = 'Courier New'
+      Font.Style = [fsBold]
+    end
+    object TargetReticle: TCyberReticle
+      Left = 250
+      Height = 150
+      Top = 300
+      Width = 150
+    end
+  end
+end
