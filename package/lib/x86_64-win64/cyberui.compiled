@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Lazarus Version="4.8"/>
+  <Compiler Value="D:\LazarusFPC\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1556502373"/>
+  <Params Value="-MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FuD:\LazarusFPC\components\cyberui\package\ -FuD:\LazarusFPC\components\cyberui\src -FuD:\LazarusFPC\packager\units\x86_64-win64 -FuD:\LazarusFPC\components\lazutils\lib\x86_64-win64 -FuD:\LazarusFPC\components\freetype\lib\x86_64-win64 -FuD:\LazarusFPC\lcl\units\x86_64-win64 -FuD:\LazarusFPC\lcl\units\x86_64-win64\win32 -FuD:\LazarusFPC48\components\opm\packages\BGRABitmap\bgrabitmap\lib\x86_64-win64-win32-3.2.2 -FUD:\LazarusFPC\components\cyberui\package\lib\x86_64-win64\ -dLCL -dLCLwin32 cyberui.pas"/>
+</CONFIG>

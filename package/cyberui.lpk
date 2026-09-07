@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="cyberui"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\src"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="..\src\cybertheme.pas"/>
+        <UnitName Value="CyberTheme"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberbutton.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberButton"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cybergrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberGrid"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cybertoggle.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberToggle"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberslider.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberSlider"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cybergauge.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberGauge"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberholochart.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberHoloChart"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberterminal.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberTerminal"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberradar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberRadar"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberglitchlabel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberGlitchLabel"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cybertabheader.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberTabHeader"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberpanel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberPanel"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberlabel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberLabel"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberEdit"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberled.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberLED"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyber7seg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Cyber7Seg"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberprogressbar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberProgressBar"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberknob.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberKnob"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberhexgrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberHexGrid"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberdivider.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CyberDivider"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberpowercore.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="cyberpowercore"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberreticle.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="cyberreticle"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberwaveform.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="cyberwaveform"/>
+      </Item>
+      <Item>
+        <Filename Value="..\src\cyberhexdump.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="cyberhexdump"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="BGRABitmapPack"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
