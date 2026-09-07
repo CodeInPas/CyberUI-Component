@@ -1,10 +1,9 @@
-<img width="790" height="456" alt="image" src="https://github.com/user-attachments/assets/d61a064a-616c-4c80-b133-134aa4157042" />
-
-Here is a professional and engaging `README.md` draft for your GitHub repository, written in English to attract the global developer community.
-
----
 
 # CyberUI - Sci-Fi Tactical Component Library for Lazarus
+
+<img width="790" height="456" alt="image" src="https://github.com/user-attachments/assets/d61a064a-616c-4c80-b133-134aa4157042" />
+
+
 
 ## About CyberUI
 
